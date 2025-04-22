@@ -1,0 +1,684 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>cloths website </title>
+</head>
+<style type="text/css">
+body{
+	background-color: peachpuff;
+      scroll-behavior: smooth;
+     font-family: 'Trebuchet MS', sans-serif;
+}
+
+.logo{
+	height: 70px;
+	width: 80px;
+	background-color: inherit;
+	display: flex;
+	flex-direction: row ;
+
+}	
+.webname{
+	height: 20px;
+	background-color: inherit;
+	font-weight: 20;
+}
+.icon img {
+	height: 50px;
+	width: 70px;
+
+}
+.navbar{
+	height: 70px;
+	width: 100%;
+	background-color: inherit;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+    color: black;
+    
+
+}
+.navlinks {
+	height: 50px;
+	width: ;
+	text-align: center;
+	text-decoration: none;
+	margin: 5px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	
+
+}
+.navlinks a {
+	text-decoration: none;
+	color: black;
+	 font-family: 'Trebuchet MS', sans-serif;
+	margin: 10px ;
+}
+.herosection{
+	height: 600px;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+
+
+}
+.bigbox{
+  height: 600px;
+  width: 100%;
+  background-color: inherit;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+
+}
+.leftbox{
+	height:500px;
+	width: 500px;
+	background-color: inherit;
+	display: flex;
+	flex-direction: column;
+/*	justify-content: space-evenly;*/
+	margin-top: 100px ;
+
+
+
+}
+.head{
+	height: 108px;
+	margin-top: 80px;
+	background-color: inherit;
+}
+.leftbox button {
+	height: 40px;
+	width: 100px ;
+	background-color: peachpuff;
+	border-radius: 10px ;
+}
+.history{
+	height: 100px;
+    width: 500px;
+    background-color: inherit;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.first{
+	height: 60px;
+    width: 230px;
+    background-color: inherit;
+    display: flex;
+    flex-direction: row;
+    margin: 10px ;
+ 
+}
+.rightbox{
+	height: 500px;
+	width: 500px;
+	background-color: peachpuff;
+
+}
+.rightbox  img {
+	height: 600px;
+	width: 600px;
+	
+	 background-color: ;
+	 padding-bottom: 300px;
+	 transition: transform 0.1s ease-out;
+	
+}
+.heading{
+	height: 600px;
+	width: 100%;
+	background-color: inherit;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+
+}
+.le {
+	height: 600px;
+	width: 700px;
+	display: flex;
+	flex-direction: row;
+	background-color:  ;
+
+}
+.smallimg img {
+	height: 280px;
+	width: 200px;
+	margin-top: 400px;
+	margin-left: 80px;
+	position:absolute;
+	box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+
+	
+}
+.bigimg img{
+	height: 610px;
+	width: 430px;
+	background-color: ;
+	
+    margin-left:250px;
+   box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+
+
+}
+.ri{
+	height:600px;
+	width: 500px;
+	padding: 50px ;
+	background-color: ;
+}
+.ri button{
+    height: 40px;
+	width: 100px ;
+	background-color: peachpuff;
+	border-radius: 10px ;
+	justify-content: center;
+	margin-left: 150px;
+}
+.parentproduct{
+	height: 1800px;
+	width: 100%;
+	background-color:#a67b5b ;
+	margin-top: 100px;
+}
+.product{
+	height: 1800px;
+	width: 1000px;
+	background-color: ;
+	display: flex;
+	flex-direction: column;
+	margin: 200px;
+
+}
+.row{
+	height: 600px;
+	width: 1000px;
+	background-color: ;
+	display: flex;
+	flex-direction: row;
+    
+	margin-left:50px ;
+	margin-right: 50px;
+}
+.col{
+	height: 500px;
+	width: 500px;
+	background-color: white;
+	margin-top: 50px;
+	margin-left:50px ;
+/*	margin-right: 50px;*/
+	text-align: center;
+	border-radius: 10px;
+	box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+}
+.col img{
+	height: 350px;
+	width: 270px;
+	margin-top: 10px;
+	border-radius: 20px;
+	box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+.col button{
+    height: 40px;
+	width: 100px ;
+	background-color: peachpuff;
+	border-radius: 10px ;
+	justify-content: center;
+	
+}
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+@keyframes blinking-cursor {
+  from, to { border-color: transparent }
+  50% { border-color: orange; }
+}
+.head {
+	  overflow: hidden;
+  white-space: nowrap;
+  border-right: .15em solid orange;
+  animation: typing 2s steps(20, end) infinite, /* 'infinite' makes it loop */
+             blinking-cursor .75s step-end infinite;
+}
+.product {
+		  overflow: hidden;
+  white-space: nowrap;
+  border-right: .15em solid peachpuff;
+  animation: typing 5s steps(30, end) forwards, /* 'infinite' makes it loop */
+             blinking-cursor .200s step-end ;
+}
+.joinus{
+	height: 480px;
+	width:1100px  ;
+	background-color: ;
+
+	display: flex;
+	flex-direction: row;
+	justify-content:space-around;
+}
+.subscribe{
+	height: 480px;
+	width:100%  ;
+	background-color: ;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	
+	/*margin-left: 230px;
+	margin-right: 230px;*/
+}
+.left1 img{
+	height: 480px;
+	width:480px  ;
+	background-color: ;
+/*	border:2px solid  black;*/
+		padding: 25px;
+
+}
+.roj{
+	height: 480px;
+	width:600px  ;
+	background-color: ;
+	padding: 25px;
+	text-align: center;
+/*	border:2px solid  black;*/
+}
+ input{
+	height: 50px;
+	width: 500px;
+    margin-top: 5px;
+	border-color: black;
+	display: flex;
+	flex-direction: column;
+	justify-content:center;
+}
+.gu{
+	overflow: hidden;
+  white-space: nowrap;
+  border-right: .15em solid orange;
+  animation: typing 2s steps(20, end) infinite, /* 'infinite' makes it loop */
+             blinking-cursor .75s step-end infinite;
+
+}
+
+footer {
+  background-color: white;
+  border-top: 1px solid #dee2e6;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.footer-content {
+  max-width: 1200px; /* Optional: Limit the width of the content */
+  margin: 0 auto; /* Center the content */
+}
+
+.social-links a {
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+.facebook {
+  color: #3b5998;
+}
+
+.instagram {
+  color: #c13584;
+}
+
+.twitter {
+  color: #00acee;
+}
+
+.legal-links a {
+  margin: 0 10px;
+  color: #555;
+  text-decoration: none;
+}
+
+.legal-links a:hover,
+.social-links a:hover {
+  text-decoration: underline; /* Add hover effect */
+}
+
+/* Add more specific styling as needed */
+
+</style>
+<body>
+	<div class=" superparent ">
+		<div class="parent">
+			<div class="navbar">
+				<div class="logo">
+					<div class="webname">&HE</div>	
+					<div class="icon">
+						<img src="https://shewardrobe.in/cdn/shop/files/SHE.png?v=1691069510">
+					</div>	
+				</div>
+				<div class="navlinks">
+					<a href= "">HOME</a>
+					<a href= "">ABOUT US</a>
+					<a href= "#products">SHOP</a>
+					<a href= "">NEWS & UPDATE</a>
+					<a href= "#contact">CONTACT US </a>
+					
+				</div>
+				<div class="cart">cart
+				<a href ="">
+					<img src="">
+				</a>	
+				</div>
+			</div>
+
+
+            <div class="herosection">
+            	<div class="bigbox">
+            		<div class="leftbox">
+            			<br><div class="head">
+            			<h1 style="font-size: 50px ; font-family:serif;line-height:0px;">BOOST YOUR</h1>
+            			
+            			<h1 style="font-size: 50px ; font-family:serif;line-height:10px;margin-top: 5px;">STYLE SENSE</h1>
+            		</div>
+            		
+            			<p >you can usep> and remove margin, padding and give it line-hight and font-size same for removing the space between lines. or you can decrease the line-height if you still see space between lines.</p>
+            			<br>
+            			<button>SHOP NOW</button>
+            			<br>
+            			<div class="history">
+            				<div class="first"> <span style="font-size :50px">144 </span> <p>Stores in <br>India</p> </div>
+            				<div class="first"> <span style="font-size :50px">68</span> <p>Stores in <br>Madhya Pradesh</p> </div>
+            			</div>
+            		</div>
+            		<div class="rightbox">
+            			<img id="shoppingGirl" src="https://static.vecteezy.com/system/resources/previews/046/934/608/non_2x/shopping-girl-standing-on-transparent-background-free-png.png">
+            		</div>
+            	</div>
+            </div>
+
+            <br>
+
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <div class="fabric">
+            	<div class="heading">
+            		<div class="le">
+            			<div class="smallimg">
+            				<img src="https://img.freepik.com/free-photo/medium-shot-boy-posing-with-monochrome-outfit_23-2151044509.jpg" >
+            			</div>
+            			<div class="bigimg">
+            				<img src="https://img.freepik.com/free-photo/fashionable-mocha-tone-portrait_23-2151914789.jpg?semt=ais_hybrid&w=740" >
+            			</div>
+            			
+            		</div>
+            		<div class="ri">
+            			<div  class="riheading" >
+            			<h1 style="font-size: 50px ; font-family:serif;line-height:0px;">Our Fabrics Will be 
+            				</h1>
+            			<br>
+                        <h1 style="font-size: 50px ; font-family:serif;line-height:10px;margin-top: 5px;">your feather</h1>
+                        </div>
+                        <br>
+            			<p>Gravida eget cras scelerisque neque risus. Ac a vitae laoreet sagittis, elit, arcu vestibulum vel. Sem aliquet mauris magna justo.</p>
+                        <br>
+
+                        <p>  Suspendisse posuere suspendisse habitasse ac tempor. Egestas fermentum ante malesuada faucibus duis risus adipiscing duis nisl. Malesuada nunc fermentum egestas lobortis in tincidunt. Nunc tempus, et tincidunt amet at condimentum massa id pulvinar.
+
+                        </p>
+                        <br>
+                        <br>
+                        <button>FIND MORE</button>
+            		</div>
+            	</div>
+
+            </div>
+
+
+           
+           
+            
+            <br>
+            <div id ="products" class="parentproduct">
+            	
+            <div class="product">
+            	<br>
+            	<h1 style="font-size: 50px ; font-family:serif;line-height:0px;text-align: center;">Our Top Rated Products
+            				</h1>
+                <br>
+            	<div class="row">
+            		<div class="col">
+            			<img src="https://cdn.pixelbin.io/v2/black-bread-289bfa/original/aarke-part-1/410334450003/410334450003_1.jpg">
+            			<p>One Peice</p>
+            			<p>Price : 25000 -/ </p>
+            			<button>Shop Now</button>
+            		</div>
+
+            		<div class="col">
+            			<img src="https://cdn05.nnnow.com/web-images/medium/styles/ESTC6PFMF3G/1730108030262/1.jpg">
+            			<p>One Peice</p>
+            			<p>Price : 25000 -/ </p>
+            			<button>Shop Now</button>
+            		</div>
+            	</div>
+            	
+            	<div class="row">
+            		<div class="col">
+            			<img src="https://www.perona.com/cdn/shop/files/24_march_perona-day2-1574-copy-weN4SAEztw_600x.jpg?v=1712390903">
+            			<p>One Peice</p>
+            			<p>Price : 25000 -/ </p>
+            			<button>Shop Now</button>
+            		</div>
+            		<div class="col">
+            			<img src="https://www.alamodelabel.in/cdn/shop/files/D555ECC8-C75C-4F0C-A4F2-74C6AE4864A1.jpg?v=1735460570">
+            			<p>One Peice</p>
+            			<p>Price : 25000 -/ </p>
+            			<button>Shop Now</button>
+            		</div>
+            	</div>
+            	
+            	<div class="row">
+            		<div class="col">
+            			<img src="https://suemue.in/cdn/shop/products/1hcxC39-ER5bTRnU1tD1L_W5Lkc9n99X9.jpg?v=1740577447&width=533">
+            			<p>One Peice</p>
+            			<p>Price : 25000 -/ </p>
+            			<button>Shop Now</button>
+            		</div>
+            		<div class="col">
+            			<img src="https://jaey.blr1.digitaloceanspaces.com/images/products/Structured_Pleated_Dress-Black-JA0060-006001-241.webp">
+            			<p>One Peice</p>
+            			<p>Price : 25000 -/ </p>
+            			<button>Shop Now</button>
+            		</div>
+            	</div>
+            
+            
+            </div>
+            </div>
+
+            
+            <br>
+            <br>
+            
+            <div id="contact" class="subscribe">
+            
+            <div class="joinus ">
+            	  
+                  <div class="left1">
+                  	<img id = "model" src="https://png.pngtree.com/png-vector/20240914/ourmid/pngtree-vector-fashion-icon-png-image_12893534.png">
+                  </div>
+                  <div class="roj">
+                  	<h1 class="gu" style="font-size: 50px ; font-family:serif;line-height:50px;text-align: center;">Join Our 
+                  		News Latter
+            				</h1>
+            		<p>Join our newsletter and be informed of our news and exceptional sales</p>
+                    <h4>Subscribe Here</h4>
+                  	<form>
+                  		
+                      <fieldset>
+                  		
+                  		<label for="Email">Email</label>
+                  		<input type="Email" id= "Email" name="Email">
+                  		<br>
+                  		<input type="submit" value="Send Message">
+                  	</fieldset>
+                  	</form>
+                  </div>
+              </div>
+             </div>
+             <br>
+             <br>
+             
+
+             <footer>
+
+  <div class="footer-content">
+  	<div class="webname" style="display: flex ; flex-direction: row;
+  	justify-content: center;">&HE</div>	
+					<div class="icon">
+						<img src="https://shewardrobe.in/cdn/shop/files/SHE.png?v=1691069510">
+					</div>	
+				</div>
+    <br>
+
+    <div class="social-links">
+
+      <a href="https://www.facebook.com/" target="_blank" class="facebook">Facebook</a>
+      <a href="https://www.instagram.com/" target="_blank" class="instagram">Instagram</a>
+      <a href="https://twitter.com/" target="_blank" class="twitter">Twitter</a>
+    </div>
+    <br>
+    <div class="legal-links">
+      <a href="/privacy-policy">Privacy Policy   |  </a>
+      
+      <a href="/terms-conditions">Terms & Conditions   |  </a>
+
+      <a href="/cookies">Cookies</a>
+    </div>
+  </div>
+  <div style="text-align: center; padding-top: 10px; color: black;background-color: burlywood; font-size: 0.9em;">
+  &copy; 2025 &HE. All Rights Reserved.
+</div>
+</footer>
+
+
+   
+
+
+		</div>
+	</div>
+
+<script>
+  const image = document.getElementById('shoppingGirl');
+  window.addEventListener('scroll',()=> {
+  	const scrollPercent =(window.scrollY/(document.documentElement.scrollHeight-window.innerHeight));
+  	const initial = 600 ;
+  	const growth = 300  ;
+  	const newsize = initial + (scrollPercent*growth);
+  	image.style.width =`${newsize}px`;
+  });
+
+
+
+function typeWriter(elementId, text, speed, shouldLoop) {
+  const element = document.getElementById('head');
+  if (!element) return;
+
+  let i = 0;
+
+  function type() {
+    if (i < text.length) {
+      element.textContent = text.substring(0, i + 1);
+      i++;
+      setTimeout(type, speed);
+    } else if (shouldLoop) {
+      // Reset and restart the typing after a short delay
+      setTimeout(() => {
+        i = 0;
+        element.textContent = ''; // Clear the text
+        type();
+      }, 1000); // Adjust the delay before re-typing (in milliseconds)
+    }
+  }
+
+  // Initial call to start typing
+  element.textContent = ''; // Ensure it starts empty
+  type();
+}
+
+document.addEventListener('DOMContentLoaded', function() {
+  const headingText = "Your Looping Text";
+  const typingSpeed = 100;
+  const doLoop = true; // Set to true to make it loop
+
+  typeWriter('loopingHeading', headingText, typingSpeed, doLoop);
+});
+
+
+// for typewritter effect 
+//function typeWriter(elementId, text, speed, shouldLoop) {
+//   // 1. Get the HTML element where the text will appear.
+//   const element = document.getElementById(elementId);
+//   if (!element) return; // If the element doesn't exist, stop the function.
+
+//   // 2. Keep track of which character we're currently typing.
+//   let i = 0;
+
+//   // 3. This is the main function that does the typing.
+//   function type() {
+//     // 4. Check if we've typed all the characters in the 'text'.
+//     if (i < text.length) {
+//       // 5. If not, add the next character to the element's text content.
+//       //    `substring(0, i + 1)` gets a portion of the 'text' from the beginning up to the current character.
+//       element.textContent = text.substring(0, i + 1);
+//       // 6. Move to the next character for the next "typing" step.
+//       i++;
+//       // 7. Wait for a specified amount of time ('speed') and then call the 'type' function again.
+//       //    This creates the delay between each character being typed.
+//       setTimeout(type, speed);
+//     } else if (shouldLoop) {
+//       // 8. If we've reached the end of the text AND 'shouldLoop' is true:
+//       //    Wait for a bit before restarting the typing.
+//       setTimeout(() => {
+//         // 9. Reset the character counter to the beginning.
+//         i = 0;
+//         // 10. Clear the text content of the element so it can be typed again.
+//         element.textContent = '';
+//         // 11. Start the typing process all over again.
+//         type();
+//       }, 1000); // This is the delay (in milliseconds) before the text re-types. You can change this.
+//     }
+//     // 12. If we've reached the end and 'shouldLoop' is false, the typing stops.
+//   }
+
+//   // 13. When the function is first called, make sure the element starts with no text.
+//   element.textContent = '';
+//   // 14. Start the typing process for the first time.
+//   type();
+// }
+
+// // 15. This ensures the JavaScript code runs only after the entire HTML document has been loaded.
+// document.addEventListener('DOMContentLoaded', function() {
+//   // 16. Define the text you want to type.
+//   const headingText = "Your Looping Text";
+//   // 17. Set the speed of typing (milliseconds per character). Lower is faster.
+//   const typingSpeed = 100;
+//   // 18. Tell the function whether it should loop or not. Here, we set it to 'true'.
+//   const doLoop = true;
+
+//   // 19. Call the 'typeWriter' function with the ID of the HTML element, the text, the speed, and the loop setting.
+//   typeWriter('loopingHeading', headingText, typingSpeed, doLoop);
+// });
+</script>
+</body>
+</html>
